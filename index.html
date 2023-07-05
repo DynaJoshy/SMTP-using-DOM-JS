@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+    <title>Register Yourselves</title>
+    
+    <link rel="stylesheet" href="style.css">
+<style>
+body 
+    {
+         background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    }
+    </style>
+  
+    <div class="container">
+        
+        <br>
+        <div class="wrapper">
+           <span>
+        <h1 hover:font-bold>Reach out to us!</h1>
+      <hr><br>
+    <form onsubmit="email_sender(); reset(); return false;">
+        <div class="content">
+    <div class="input-box">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Enter your First Name"  required>
+        </div>
+        <div class="input-box">
+            <label for="fname">Last Name</label>
+            <input type="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="input-box">
+                <label for="fname">Contact No.</label>
+                <input type="text" placeholder="Enter your Phone Number" required>
+                </div>
+            <div class="input-box">
+                <label for="e-mail">E-Mail</label> 
+                <input type="text" id="emailid" placeholder="Enter your E-mail address" required>
+                </div>
+                <!-- <div class="textarea">
+                    <textarea rows="10" cols="52" style=" border:solid 1px blue;" placeholder="Write your message here."></textarea>
+                </div> -->
+               
+                <div class="button">
+                    <button type="submit">Count my registration!</button>
+                </div>
+                
+                    
+            
+              </form>
+                        </div>
+                       
+                        </span>
+                        </div>
+                            </div>
+                            <script src="https://smtpjs.com/v3/smtp.js"></script>
+                            <script>
+                                function email_sender()
+                                {
+                                    Email.send({
+                                    Host : "smtp.elasticemail.com",
+                                    Username : "speedycode308@gmail.com",
+                                    Password : "0E7D34FE1B4D1717418458763EC440A94A71",
+                                   To : "speedycode308@gmail.com",
+                                     From : document.getElementById("emailid").value,
+                                     Subject : "Text from user",
+                                     Body : "Received one registration."
+}).then(
+  message => alert(message)
+)
+                                }
+                            </script>
+</body>
+</html>

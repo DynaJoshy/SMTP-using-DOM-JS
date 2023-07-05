@@ -1,0 +1,119 @@
+ *
+{
+    font-style:oblique;
+    font-variant: inherit;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    box-sizing:border-box;
+    position: relative;
+}
+   
+body
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+h1{
+  padding-left: 9rem;
+  margin-top: 0px;
+  /* text-shadow:  1px 1px 1px #000000; */
+  align-content: center;
+  padding-top: 0%;
+  font-family:"pacifico";
+  font-weight: 700px;
+  font-size: 2em;
+  color:rgb(2, 1, 2);
+}
+  .input-box
+  {
+    display:flex;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 15px;
+    }
+    .wrapper
+    {
+      width: 43rem;
+      height:40rem;
+      padding: 1rem 5rem 8rem 5rem;
+    margin: 0px 90px;
+    box-shadow: 0px  15px 20px rgb(5, 4, 4);
+    background-color:rgb(246, 246, 246);
+    }
+    .input-box label
+    {
+      width: 95em;
+      font-family:'Trebuchet MS';
+      font-size: medium;
+      color: black;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .input-box input 
+    {
+      position: relative;
+      height: 40px;
+      width:95%;
+      padding-left: 20px;
+      font-size:small;
+      font-family:  sans-serif;
+      padding-bottom: 0%;
+      border-radius:5px;
+      border: 1px solid blue;
+      outline: none;
+    }
+    .e-mail
+    {
+      height: 40px;
+      width:95%;
+      padding-left: 20px;
+      font-size:small;
+      font-family:  sans-serif;
+      padding-bottom: 0%;
+      border-radius:5px;
+      border: 1px solid blue;
+      outline: none;
+    }
+    .input-box textarea
+    {
+      border: 1px solid blue;
+    }
+    .input-box 
+    {
+      font-size: x-large;
+      padding-left: 38px;
+    }
+   .button
+    {
+      margin: 10px 34px;
+    }
+    .button button
+    {
+       cursor: pointer; 
+       width:100%;
+       font-weight: bolder;
+        margin-top: 10px;
+        margin-right: 0px;
+        padding: 10px 0px 10px 0px;
+       font-family: Georgia;
+        font-size:20px;
+        color:rgb(14, 46, 72);
+        border-radius: 5px;
+        background-image: linear-gradient(to right, rgb(177, 115, 196),rgb(249, 253, 254));
+    }
+    button:hover
+    {
+   color:#0a0a23;
+   text-decoration: underline;
+    }
+  .textarea {
+      margin-top:1rem;
+      padding-left:3rem;
+      color:black;
+      }
+    
+    
